@@ -31,10 +31,10 @@ Provides daily records of each campaign’s details for visualizations, dashboar
 
 ### 輸出結果 | Output Results
 - 生成 CSV 文件，包含每個 campaign 的詳細數據
-- `Log` 資料夾記錄每天執行結果的文本文件
-Generates a CSV file for each campaign and logs execution results in a daily text file in the `Log` folder.
-![Output Example](images/outputs.png)
-CSV Example:
+- `Log` 資料夾記錄每天執行結果的文本文件  
+Generates a CSV file for each campaign and logs execution results in a daily text file in the `Log` folder.  
+![Output Example](images/outputs.png)  
+CSV Example:  
 ![csv_file](images/csv_outputs.png)
 
 ---
@@ -42,26 +42,26 @@ CSV Example:
 ### 各檔案描述 | File Descriptions
 - **all_setting.json**  
   資料庫與信箱設定檔案。  
-  *Database and email configuration file.*
+  Database and email configuration file.
 - **facebook_setting.yml**  
   Facebook 帳號與 campaign 的設定檔。  
-  *Facebook account and campaign configuration file.*
+  Facebook account and campaign configuration file.
 - **facebook_daily_data.py**  
   主程式，包含以下功能：
   - 設定讀取
   - 日誌設定
-  - 連接資料庫並寫入資料
   - API 串接與特殊情況處理 (翻頁、失敗重連、campaign 最多串接數限制)
-  - 數據整合與通知
-  *Main script with the following functionalities:*
+  - 數據整合與通知  
+  - 連接資料庫並寫入資料  
+  Main script with the following functionalities:
   - Reads settings
   - Configures logging
-  - Connects to and writes to the database
   - API connection and special case handling (pagination, retries, campaign link limits)
   - Data integration and notifications
+  - Connects to and writes to the database
 - **facebook_config.py**  
   設定讀取程式，供 `facebook_daily_data.py` 使用。  
-  *Configuration loader used by `facebook_daily_data.py`.*
+  Configuration loader used by `facebook_daily_data.py`.
 - **facebook_daily_data_fn.py**  
   處理重複性數據格式，用於 `facebook_daily_data.py`。  
-  *Handles recurring data formatting, used by `facebook_daily_data.py`.*
+  Handles recurring data formatting, used by `facebook_daily_data.py`.
