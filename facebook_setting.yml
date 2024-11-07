@@ -14,11 +14,13 @@ access_token:
 # Campaign資訊 (建議建在資料庫)
 account_campaign:
   - account: "account_1"
-    campaign_id: 
+    campaign_id: 123456
   - account: "account_1"
-    campaign_id: 
+    campaign_id: 123456
   - account: "account_2"
-    campaign_id: 
+    campaign_id: 123456
 
 # FB最大request
 fb_max_request: 50
+
+
