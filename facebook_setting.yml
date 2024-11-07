@@ -1,0 +1,24 @@
+﻿# fb使用者
+fb_user: ""
+
+# api使用版本
+fb_api: "v19.0"
+
+# token
+access_token:
+    # 第一個帳號
+    account_1: "" 
+    # 第二個帳號
+    account_2: ""
+
+# Campaign資訊 (建議建在資料庫)
+account_campaign:
+  - account: "account_1"
+    campaign_id: 
+  - account: "account_1"
+    campaign_id: 
+  - account: "account_2"
+    campaign_id: 
+
+# FB最大request
+fb_max_request: 50
