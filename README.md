@@ -52,7 +52,7 @@ CSV Example:
   - 日誌設定
   - API 串接與特殊情況處理 (翻頁、失敗重連、campaign 最多串接數限制)
   - 數據整合與通知  
-  - 連接資料庫並寫入資料  
+  - 連接資料庫並寫入資料
   Main script with the following functionalities:
   - Reads settings
   - Configures logging
