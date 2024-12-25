@@ -22,7 +22,7 @@ Provides daily records of each campaign’s details for visualizations, dashboar
    填入 Facebook 使用者、帳號 token 和 Campaign 資訊 (facebook_setting.yml)。  
    Add Facebook user, account token, and campaign details in `facebook_setting.yml`.  
    ![Step 2](images/facebook_setting.png)
-4. **執行主程式 Run the Main Script**  
+3. **執行主程式 Run the Main Script**  
    在命令行中運行 facebook_daily_data.py，並依次填入模式、開始日期、結束日期等參數。  
    Execute `facebook_daily_data.py` in the command line, specifying mode, start date, and end date as parameters.  
    ![Step 3](images/main_script.png)
